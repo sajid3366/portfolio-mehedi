@@ -3,7 +3,7 @@ import Aside from "../components/Aside/Aside";
 
 const Root = () => {
     return (
-        <div>
+        <div className="flex">
             <Aside></Aside>
             <Outlet></Outlet>
         </div>
