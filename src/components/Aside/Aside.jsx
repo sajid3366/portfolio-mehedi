@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 import image from '/image/logo.png'
 const Aside = () => {
     return (
-        <div className="w-[350px] h-screen bg-slate-200 pt-20 px-5 text-center ">
+        <div className="w-[350px]  bg-slate-200 pt-20 px-5 text-center ">
             <div className='w-[100px] h-[100px] rounded-full flex justify-center m-auto bg-gray-400 mb-5'>
                 <img className='w-[100px] h-[90px]' src={image} alt="logo" />
             </div>
